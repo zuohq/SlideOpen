@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="slide_open_style">@style/CustomSlideOpen</item>
+    </style>
+
+
+    <style name="CustomSlideOpen">
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:src">@drawable/ic_right_arrow</item>
+        <item name="so_drag_label">@string/drag_label</item>
+        <item name="so_release_label">@string/release_label</item>
+        <item name="so_child_margin_left">5dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="so_ratio">1.5</item>
+        <item name="so_friction">3.5</item>
+    </style>
+
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">slide-open</string>
+    <string name="drag_label">滑动查看图文详情</string>
+    <string name="release_label">释放查看图文详情</string>
+</resources>

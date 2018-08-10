@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CustomViewRight">
+        <!--CustomViewRight paddingLeft PaddingRight 属性-->
+        <attr name="android:paddingLeft" />
+        <attr name="android:paddingRight" />
+
+        <!--滑出的图片-->
+        <attr name="android:src" />
+
+        <!--滑出的文字样式-->
+        <attr name="android:textColor" />
+        <attr name="android:textSize" />
+        <attr name="so_drag_label" format="string" />
+        <attr name="so_release_label" format="string" />
+        <attr name="so_child_margin_left" format="dimension" />
+    </declare-styleable>
+
+
+    <declare-styleable name="SlideOpenLayout">
+        <attr name="slide_open_style" format="reference" />
+        <!--宽高比-->
+        <attr name="so_ratio" format="float" />
+        <!--阻尼系数-->
+        <attr name="so_friction" format="float" />
+    </declare-styleable>
+
+</resources>
