@@ -1,6 +1,6 @@
 #SlideOpen
 ##Demo
-![image]https://github.com/zuohq/SlideOpen/blob/master/art/slide-open.gif
+![image](https://github.com/zuohq/SlideOpen/blob/master/art/slide-open.gif)
 ##Installation
 SlideOpen is installed by adding the following dependency to your build.gradle file:
 
