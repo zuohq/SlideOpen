@@ -5,7 +5,7 @@
 SlideOpen is installed by adding the following dependency to your build.gradle file:
 
     dependencies {
-        implementation 'com.liulishuo.filedownloader:library:1.7.5'
+        implementation 'com.hatch.slideopen:library:0.1.0'
     }
 ## Usage
     
