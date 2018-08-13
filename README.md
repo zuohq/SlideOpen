@@ -4,15 +4,15 @@
 ## Installation
 SlideOpen is installed by adding the following dependency to your build.gradle file:
 
-dependencies {
-    implementation 'com.liulishuo.filedownloader:library:1.7.5'
-}
+    dependencies {
+        implementation 'com.liulishuo.filedownloader:library:1.7.5'
+    }
 ## Usage
     
     1. <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         ......
         <item name="slide_open_style">@style/CustomSlideOpen</item>
-    </style>
+       </style>
 
     2. <style name="CustomSlideOpen">
         <item name="android:paddingRight">2dp</item>
@@ -25,7 +25,7 @@ dependencies {
         <item name="android:textColor">@color/gray</item>
         <item name="so_ratio">1.5</item>
         <item name="so_friction">3.5</item>
-    </style>
+       </style>
     
     3.  final SlideInterface mSlideOpen = findViewById(R.id.slide_open_layout);
         mSlideOpen.instantiateItem(view);
