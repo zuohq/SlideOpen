@@ -1,13 +1,13 @@
-#SlideOpen
-##Demo
+# SlideOpen
+## Demo
 ![image](https://github.com/zuohq/SlideOpen/blob/master/art/slide-open.gif)
-##Installation
+## Installation
 SlideOpen is installed by adding the following dependency to your build.gradle file:
 
 dependencies {
     implementation 'com.liulishuo.filedownloader:library:1.7.5'
 }
-##Usage
+## Usage
     
     1. <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         ......
@@ -43,7 +43,7 @@ dependencies {
                     //......
                 }
             });
-##License
+## License
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
 You may obtain a copy of the License at
