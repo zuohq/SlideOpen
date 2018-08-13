@@ -14,7 +14,6 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 /**
- * @Description:
  * @author: Created by martin on 2018/8/2.
  */
 public class CustomViewRight extends LinearLayout {

@@ -1,13 +1,19 @@
 apply plugin: 'com.android.library'
 
+ext {
+    bintrayName = 'slide-open'
+    artifact = 'library'
+    libraryName = 'slide-open sdk'
+    libraryDescription = 'An Android library that allows you to slide open easily'
+    libraryVersion = api_version
+}
+
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion
 
     defaultConfig {
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 1
-        versionName "0.1.0"
     }
 
     buildTypes {
@@ -16,7 +22,6 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-
 }
 
 dependencies {
@@ -24,3 +29,6 @@ dependencies {
 
     implementation "com.android.support:appcompat-v7:$rootProject.supportLibraryVersion"
 }
+
+apply from: './bintray.gradle'
+apply from: './install.gradle'

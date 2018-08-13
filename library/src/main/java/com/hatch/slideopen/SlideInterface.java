@@ -3,14 +3,13 @@ package com.hatch.slideopen;
 import android.view.View;
 
 /**
- * @Description:
  * @author: Created by martin on 2018/8/2.
  */
 public interface SlideInterface {
 
     /***
      * 包含ViewPager的容器
-     * @param leftViewGroup
+     * @param leftViewGroup ViewPager容器
      */
     void instantiateItem(View leftViewGroup);
 
@@ -24,14 +23,14 @@ public interface SlideInterface {
     /***
      * 打开回调
      *
-     * @param listener
+     * @param listener 触发打开事件
      */
     void setOnOpenListener(SlideOpenLayout.OnOpenListener listener);
 
     /***
      * X轴滑动距离回调
      *
-     * @param listener
+     * @param listener X轴滑动距离回调
      */
     void setOnScrollListener(SlideOpenLayout.OnScrollListener listener);
 }

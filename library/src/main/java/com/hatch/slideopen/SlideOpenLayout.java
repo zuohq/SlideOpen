@@ -12,7 +12,6 @@ import android.view.ViewParent;
 import android.widget.Scroller;
 
 /**
- * @Description:
  * @author: Created by martin on 2018/8/2.
  */
 public class SlideOpenLayout extends ViewGroup implements SlideInterface {
@@ -409,7 +408,7 @@ public class SlideOpenLayout extends ViewGroup implements SlideInterface {
         /**
          * X方向滚动的距离
          *
-         * @param scrollX
+         * @param scrollX x方向滚动距离
          */
         void onPageScrolled(int scrollX);
     }

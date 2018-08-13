@@ -7,10 +7,9 @@
     tools:context=".MainActivity">
 
     <com.hatch.slideopen.sample.SwipeRefreshLayoutExt
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
         android:id="@+id/swipe_refresh_layout"
-        >
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
         <com.hatch.slideopen.SlideOpenLayout
             android:id="@+id/slide_open_layout"
